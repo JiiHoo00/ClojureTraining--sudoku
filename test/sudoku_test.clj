@@ -1,2 +1,8 @@
+;; (ns sudoku-test
+;;   (:use iloveponies.tests.sudoku))
+
 (ns sudoku-test
-  (:use iloveponies.tests.sudoku))
+  (:require [sudoku :refer :all]))
+
+(require 'iloveponies.tests.sudoku :reload)
+
